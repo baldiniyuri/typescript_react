@@ -1,0 +1,49 @@
+.register-container{
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    input {
+        min-width: 250px;
+        border-radius: 25px;
+        margin-bottom: 1%;
+        padding: 0.5%;
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        width: 150px;
+        margin-left: 38%;
+        margin-bottom: 1%;
+        border-radius: 25px;
+    }
+
+    button:hover {
+        background-color: white;
+        color: red;
+    }
+}
+
+
+.idiot-span {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+
+    span {
+        color: rebeccapurple
+    }
+}
+
